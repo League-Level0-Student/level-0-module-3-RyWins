@@ -17,8 +17,12 @@ public class CrazyCatLady {
 			JOptionPane.showMessageDialog(null, "You are a crazy cat lady");
 		}
 		
-		else if(cats < 3 ) {
-			playVideo(videoUrl);
+		else if(cats > 3 ) {
+			playVideo("https://www.youtube.com/watch?v=cbP2N1BQdYc");
+		}
+		
+		else if(cats == 0) {
+			playVideo("https://www.youtube.com/watch?v=oj_yLBltPE8");
 		}
 		// 4. If they have less than 3 cats AND more than 0 cats, call the method below to show them a cat video
 		//    Hint: You can use the && operator 
